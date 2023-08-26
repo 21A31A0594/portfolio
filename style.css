@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head1, #skills{
+    background: url("https://wallpapercave.com/dwp2x/wp2610903.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    justify-content: center;
+    align-items: center;
+}
+.part1{
+    padding-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px;
+}
+.title{
+    padding-top: 20px;
+    color:navy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+}
+.desc{
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px; 
+}
+.head1 .part2{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding:10px;
+}
+.square{
+    padding-top: 60px;
+    width:150px;
+    height: 100px;
+    border-radius: 2px;
+    margin:15px;
+    border-radius: 8px;
+    border: 5px;
+    font-size: 32px;
+}
+.square a{
+    padding: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.square:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+}
+.box1 {
+    background-color:red;
+}
+.box2 {
+    background-color:green;
+}
+.box3{
+    background-color:blue;
+}
+.box4{
+    background-color:mediumvioletred;
+}
+.box5, marquee{
+    background-color:gold;
+}
+h1{
+    text-align: left;
+}
+b{
+    color:chartreuse;
+}
+#about,.pa{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.part4, .tb, marquee{
+    text-align: left;
+    font-size: 22px;
+    max-width: 700px;;
+    background-color: azure;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 2px 2px 2px 2px;
+    margin: 20px;
+}
+#contact{
+    display: flex;
+    background: url("https://lh3.googleusercontent.com/blogger_img_proxy/AAOd8MwF8r1hlaJklh2rVD08iVil1rI3JLhKfnXH4GdB8lTH6P9y8iQbSL6SbOzTtsBpye4rDIxk3xaYDLjhSgOqg8a1EjcQ2ZFo_T4qWCSRJslWqoP-VGrehoxuGDcyL6MpYaIdOEI=s0-d");
+    background-repeat: no-repeat;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(233, 81, 162);
+    font-weight: bold;
+    margin:5%;
+}
+.r{
+    height:200px;
+    width:200px;
+    background-color:lavender;
+    margin-left: 80px;
+    padding-left:10px;
+    border-radius:15% ;
+    float: left;
+    margin-top: 40px;
+}
+.img {
+    padding: 15px;
+    text-align: center;
+    max-height: 130px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    transition: 0.6s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex; 
+    flex-direction: column;
+    width:120px;
+    height:100px;
+}
+.skill {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.logo img{
+    width:120px;
+    height:120px;
+    border-radius: 20%;
+    border:2px solid black;
+}
+#projects{
+    background-color: darkorchid;
+}
+.inner{
+    margin-left: 20%;
+    padding-top: 30px;
+}
+.details{
+padding-left: 10%;
+}
